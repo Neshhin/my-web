@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AI Techniques</title>
+        <style>
+            body{
+                margin: 0;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            #Header{
+                height: 100px;
+                width: 100%;
+                background-color: aquamarine;
+                margin: 0;
+                
+            }
+
+            #Menu{
+                height: 50px;
+                width: 100%;
+                background-color: rgb(36, 34, 37);
+                margin: 0;
+            }
+
+            #Menu ul{
+                 list-style: none;
+                 margin: 0;
+
+            }
+
+
+            #Menu li{
+                float: left;
+                margin: 14px;
+            }
+
+            #Menu ul a{
+                color: #fff;
+                text-decoration: none;
+                text-transform: capitalize;
+            }
+
+            .Side-panel{
+                width: 300px;
+                height: 600px;
+                background-color: rgb(60, 114, 162);
+                float: left;
+            }
+            #Content{
+                width: calc(100% - 600px);
+                height: 600px;
+                background-color: aqua;
+                float: left;
+            }
+
+           
+        </style>
+    </head>
+    <body>
+        <div id="Menu">
+            <ul>
+             <li><a href="Introduction.html">Introduction</a></li>
+                 <li><a href="Techniques.html">Techniques</a></li>
+                 <li><a href="Applications.html">Applications</a></li>
+            </ul>
+         </div>
+        <h1 style="color: rgb(92, 38, 228);">Techniques</h1>
+        <h2 style="color: blueviolet;">Classifiers and statistical learning methods</h2>
+        <p>The simplest AI applications can be divided into two types: classifiers (e.g., "if shiny then diamond"), on one hand, and controllers (e.g., "if diamond then pick up"), on the other hand. Classifiers are functions that use pattern matching to determine the closest match. They can be fine-tuned based on chosen examples using supervised learning. Each pattern (also called an "observation") is labeled with a certain predefined class. All the observations combined with their class labels are known as a data set. When a new observation is received, that observation is classified based on previous experience.
+
+            There are many kinds of classifiers in use. The decision tree is the simplest and most widely used symbolic machine learning algorithm. K-nearest neighbor algorithm was the most widely used analogical AI until the mid-1990s, and Kernel methods such as the support vector machine (SVM) displaced k-nearest neighbor in the 1990s. The naive Bayes classifier is reportedly the "most widely used learner" at Google, due in part to its scalability. Neural networks are also used as classifiers.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif">
+            <h2 style="color: blueviolet;">Artificial neural networks</h2>
+            <p>An<strong> artificial neural network</strong> is based on a collection of nodes also known as artificial neurons, which loosely model the neurons in a biological brain. It is trained to recognise patterns; once trained, it can recognise those patterns in fresh data. There is an input, at least one hidden layer of nodes and an output. Each node applies a function and once the weight crosses its specified threshold, the data is transmitted to the next layer. A network is typically called a deep neural network if it has at least 2 hidden layers.
+
+                <br><br><br>Learning algorithms for neural networks use local search to choose the weights that will get the right output for each input during training. The most common training technique is the backpropagation algorithm. Neural networks learn to model complex relationships between inputs and outputs and find patterns in data. In theory, a neural network can learn any function.</br></br></br>
+                
+                In feedforward neural networks the signal passes in only one direction. Recurrent neural networks feed the output signal back into the input, which allows short-term memories of previous input events. Long short term memory is the most successful network architecture for recurrent networks. Perceptrons use only a single layer of neurons, deep learning uses multiple layers. Convolutional neural networks strengthen the connection between neurons that are "close" to each other – this is especially important in image processing, where a local set of neurons must identify an "edge" before the network can identify an object.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Artificial_neural_network.svg/330px-Artificial_neural_network.svg.png">
+
+                <h2 style="color: blueviolet;">Deep learning</h2>
+                <p><strong><i>Deep learning</i></strong> uses several layers of neurons between the network's inputs and outputs. The multiple layers can progressively extract higher-level features from the raw input. For example, in image processing, lower layers may identify edges, while higher layers may identify the concepts relevant to a human such as digits or letters or faces.</br></br>
+                    Deep learning has profoundly improved the performance of programs in many important subfields of artificial intelligence, including computer vision, speech recognition, natural language processing, image classification and others. The reason that deep learning performs so well in so many applications is not known as of 2023. The sudden success of deep learning in 2012–2015 did not occur because of some new discovery or theoretical breakthrough (deep neural networks and backpropagation had been described by many people, as far back as the 1950s) but because of two factors: the incredible increase in computer power (including the hundred-fold increase in speed by switching to GPUs) and the availability of vast amounts of training data, especially the giant curated datasets used for benchmark testing.</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/AI_hierarchy.svg/255px-AI_hierarchy.svg.png">
+    </body>
+</html>
